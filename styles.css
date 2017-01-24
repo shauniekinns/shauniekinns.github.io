@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Desktop / Global View*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+
+.slicknav_menu {
+	display: none;
+}
+
+#menu {
+	float: right;
+}
+
+.col{
+	float:left;
+	padding: 1%;
+}
+
+.col-lg{
+	width: 30.3%;
+	
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	font-size: 18px;
+}
+
+header {
+	padding: 10px 20px 20px 20px;
+
+}
+
+h1 {
+	color: black;
+	font-weight: 300;
+	font-size: 52px;
+	margin-bottom: -5px;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	font-size: 18px; 
+	object-position: bottom; 
+		
+}
+
+
+
+
+
+/*Tablet View*/
+
+@media (max-width: 768px) {
+
+.slicknav_menu {
+	display: none;
+}
+
+	.col-md {
+		width: 48%;
+	}
+	
+
+}
+
+/*Mobile View*/
+
+@media (max-width: 400px) {
+
+
+	.slicknav_menu {
+		display: block;
+	}
+
+	#menu {
+		display: none;
+	}
+	
+	.col-sm {
+		width: 100%;
+	}
+
+	.col {
+		padding: 0%;
+	}
+	
+}
